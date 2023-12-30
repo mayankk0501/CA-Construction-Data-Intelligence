@@ -73,7 +73,6 @@ def get_rpcity_data(url):
                 "coordinates": [longitude, latitude]
             }
             data_list.append(data)
-            break
         add_data_to_csv(data_list)
             
 ################################################################################################################
@@ -95,7 +94,6 @@ def get_ppmoe_data(url):
                 "coordinates": [longitude, latitude]
             }
             data_list.append(data)
-            break
         add_data_to_csv(data_list)
 
 ################################################################################################################
